@@ -249,7 +249,7 @@ def GetForecastError():
 
 
 # Define a route for the default URL, which loads the form
-@app.route('/forecast', methods=['POST', 'GET'])
+@application.route('/forecast', methods=['POST', 'GET'])
 def get_financial_information():
     chart_plot = ''
     fundamentals_company_name = ''
