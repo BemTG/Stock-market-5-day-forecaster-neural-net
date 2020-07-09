@@ -214,7 +214,7 @@ def get_plot_prediction(symbol):
 @app.before_first_request
 def prepare_data():
     global stock_market_historical_data, stock_market_live_data, options_stocks, predict_fn, model_features
-    stock_market_historical_data = pd.read_csv(os.path.join(BASE_DIR, 'stock_market_historical_data.csv'))
+    stock_market_historical_data = pd.read_csv('https://stockmarkethistoricaldata.s3.eu-west-2.amazonaws.com/stock_market_historical_data.csv'))
     # stock_market_live_data = pd.read_csv(os.path.join(BASE_DIR, 'stock_market_live_data.csv'))
     # stock_market_live_data=GetLiveStockData(symbol, size=50)
 
