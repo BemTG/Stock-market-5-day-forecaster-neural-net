@@ -211,7 +211,7 @@ def get_plot_prediction(symbol):
         chart_plot = Markup('<img style="padding:0px; width: 80%; height: 500px" src="data:image/png;base64,{}">'.format(plot_bit_to_text))
         return(chart_plot)
 
-@app.before_first_request
+@application.before_first_request
 def prepare_data():
     global stock_market_historical_data, stock_market_live_data, options_stocks, predict_fn, model_features
     stock_market_historical_data = pd.read_csv('https://stockmarkethistoricaldata.s3.eu-west-2.amazonaws.com/stock_market_historical_data.csv')
@@ -249,7 +249,7 @@ def GetForecastError():
 
 
 # Define a route for the default URL, which loads the form
-@app.route('/forecast', methods=['POST', 'GET'])
+@application.route('/forecast', methods=['POST', 'GET'])
 def get_financial_information():
     chart_plot = ''
     fundamentals_company_name = ''
