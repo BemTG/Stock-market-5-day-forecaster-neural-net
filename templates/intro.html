@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <style>
+  body,h1 {font-family: 'Raleway', Arial, sans-serif}
+  h1 {letter-spacing: 6px}
+  .w3-row-padding img {margin-bottom: 12px}
+</style>
+    <meta name="viewport" content="width-device-width, intial_scale=1">
+<link rel="stylesheet"  href="https://www.w3schools.com/w3css/4/w3.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+  <a href="http://NeuralNetStockMarketModel-env.eba-9wnuh9qy.eu-west-2.elasticbeanstalk.com/" class="w3-bar-item w3-button">Machine learning for trading intro </a>
+  <a href="http://NeuralNetStockMarketModel-env.eba-9wnuh9qy.eu-west-2.elasticbeanstalk.com/forecast" class="w3-bar-item w3-button">Live forecasting  </a>
+
+</div>
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+<style>
+  body,h1 {font-family: 'Raleway', Arial, sans-serif}
+  h1 {letter-spacing: 6px}
+  .w3-row-padding img {margin-bottom: 12px}
+</style>
+
+
+
+
+    <div align="centre" >
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF=8">
+        <title>S&P500 stock forecaster</title>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    </head>
+
+
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<div>
+  <button class="w3-button w3-black w3-xxlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+    <h1></h1>
+    <p></p>
+    <p></p>
+  </div>
+</div>
+     
+
+
+
+</body>
+<header class="w3-container w3-teal " >
+  <h1 style="color: white"><b>Applied Machine Learning</b></h1>
+  <h1>Live forecasting of S&P500 companies </h1>
+</header>
+
+
+
+
+
+
+
+
+
+  <body style = "background-color: black; padding-top: 10px; ">
+          <div class="container">
+            <div class="navbar-header">
+              <table cellpadding ="5" style="width:80%; background-color:black;">
+                <tr>
+                  <td>
+                       <!-- <img src="static/images/forecast-chart.png" alt="forecast chart" height="79" width="215">
+                  </td> -->
+                  <td>
+                      <H2><p style="text-align:center; color: black">...</p></H2>
+                  </td>
+                   <td>
+                     <!-- <img src="static/images/forecast-chart.png" alt="forecast chart" height="79" width="215"> -->
+
+                  </td>
+                </tr>
+            </div>
+          </div>
+
+
+
+
+
+
+    <body style = "background-color: black; padding-top: 10px; ">
+          <div class="container">
+            <div class="navbar-header">
+              <!-- <table cellpadding ="5" style="width:80%; background-color:teal;"> -->
+                <tr>
+                  <td>
+                       <!-- <img src="static/images/forecast-chart.png" alt="forecast chart" height="79" width="215">
+                  </td> -->
+                  <td>
+                      <H2><p style="text-align:center; color: white"></p></H2>
+                  </td>
+                   <td>
+                     <!-- <img src="static/images/forecast-chart.png" alt="forecast chart" height="79" width="215"> -->
+
+                  </td>
+                </tr>
+            </div>
+          </div>
+
+    <h1 style="color: black">.jij</h1>
+    <h4><strong style="color: white"> Trading </strong></h4>
+    <p style="color: white">Many investment banks and hedge funds around the world trade stocks to make money for their investors.  When it comes to trading the main goal is to preserve money and essentially take trades when odds are in ones favour. There are several ways a hedge funds or an investment bank ends up making a trade, one of the many is through quantitative research and analysis.<br><br>
+    <h4><strong style="color: white"> How quantitative traders and hedgefunds trade?</strong></h4>
+    <p style="color: white">Quantitative traders use data to make predictions about the future. This is usually carried out by making simple models to capture the markets state and forecasting out based on previous historical patterns/ behaviour of the market. Quants find patterns in these historical datasets and make risk adjusted statistical bets based on the patterns and behaviour of the market. <br>
+Some hedge fund may incorporate simple models such as the Capital Asset Pricing Model (CAPM) to describe the relationship between systematic risk and expected return of a stock to help execute a trade.
+</p>
+
+<math>
+  <h2 style="color: white ; text-align:center"><strong>r =  βr(t) + α(t)</strong></h2>
+  <p style="color: white ; text-align:left"> <strong>r</strong>= Total returns</p>
+  <p style="color: white ; text-align:left"> <strong>βr(t)</strong>= stock return attributed to the market</p>
+  <p style="color: white ; text-align:left"> <strong>β</strong>= market correlation</p>
+  <p style="color: white ; text-align:left"> <strong>α</strong>= alpha (residual)</p>
+</math><br><br>
+
+
+
+
+    <!-- <strong> Which economic reports are being used?</strong> -->
+    <p style="color: white">The total return of a stock can be explained using the two variables, market return and residual return. β is simply a measure of how correlated the given stock returns are to the market whereas α is the residual returns attributed to the stock irrespective of the market returns. <br>
+Quant traders build strategies and models to predict the alpha factor of the given stock in order to take market neutral trades. The goal is choose stocks that will over perform when market goes up and to choose stocks that do not underperform as much when markets goes down. <br> 
+Hedge funds will use a combination of different models (including machine learning models) to predict if the given stock is going to be above or below the market. Based on these predictions traders can take trades that are independent of the market returns.<br><br>
+
+Simple example of a market neutral trade:<br><br>
+
+<math>
+  <h2 style="color: white ; text-align:center"><strong>r(p)=  W <sub>A</sub>  β<sub>A</sub> + W <sub>B</sub>  β<sub>B</sub>  +   W <sub>A</sub>  α<sub>A</sub> + W <sub>B</sub>  α<sub>B</sub>  </strong></h2><br>
+  <p style="color: white ; text-align:left"> <strong>W <sub>A</sub> </strong>= Weight allocation of stock A </p>
+  <p style="color: white ; text-align:left"> <strong>W <sub>B</sub> </strong>= Weight allocation of stock B</p>
+  <p style="color: white ; text-align:left"> <strong> β<sub>A</sub></strong>= market correlation of stock A</p>
+   <p style="color: white ; text-align:left"> <strong> β<sub>A</sub></strong>= market correlation of stock B</p>
+    <p style="color: white ; text-align:left"> <strong> α<sub>A</sub></strong>= Returns of stock A irrespective of the market (residual)</p>
+    <p style="color: white ; text-align:left"> <strong> α<sub>B</sub></strong>= Returns of stock B irrespective of the market (residual)</p>
+
+</math><br><br>
+
+ <p style="color: white">Let assume our predictive model is forecasting that stock A is going to increase by 1% above the market. In order to take a neutral trade we would have to find a stock that is inversely correlated to the market. As a result, we find that stock B will be trading -0.5% below the market. Since we cannot change the  β values of the stock we would have to adjust the weighting (W <sub>A</sub>  & W <sub>B</sub>) accordingly to reduce market exposure to zero in the first two varibales. For this specific example if stock A has β<sub>A</sub>=1 and stock B is β<sub>B</sub>=-1 , then W <sub>B</sub> would have to be 4 whenever  W <sub>A</sub>  is 2. Consequently, the expected return r(p) is going to derive solely from the last 2 variables in equation (W <sub>A</sub>  α<sub>A</sub> + W <sub>B</sub>  α<sub>B</sub>) and hence will be neutral from the market returns.</p><br>
+
+ <p style="color: white">It is important to realise that hedge funds spend substantial amount of money constructing, developing and improving the predictive models since inaccuracy in the model can lead to considerable amount of losses. Even 1% increase in model performance is worth exploring when managing millions or billions of dollars.</p><br><br>
+
+ <h4><strong style="color: white"> How does the model in the webapp work?</strong></h4><br>
+    <p style="color: white">The model in webapp  is a neural net supervised machine learning model that has been trained with 5 years of historical data. This model primarily takes the historical adjusted close values from yahoo finance of the selected stocks and forecasts the upcoming 5th day value.<br><br>
+      The way a neural network works is it takes in inputs, which are processed in hidden layers with weights that are adjusted/updated during training. This is followed by the model yielding an output or a prediction based on the patterns and relationship it captured during training period. The user does not necessarily need to specify what patterns to look for, once constructed the model architecture and adjusted the learning parameters, the neural network learns on its own. <br><br>
+      Since our data is relatively small we used a simple model architecture of 2 hidden layers with 5 dense nodes. The activation function we have used for the node is relu (rectified linear unit) which is a nonlinear. By stacking several of these dense nodes we can create higher order of polynomials which help capture the patterns of the dataset. Thus the more layers we add, the more complex mathematical functions we can model and fit. <br><br>
+      The data was split 67% for training and 33% for testing. We trained our small dataset for 3 epochs, which is the number of times the model will cycles through the data. We measured the loss of the model using mean squared error which was calculated to be ~19% (the closer to 0 the better).<br><br>
+
+      For more information about the project and the source code click the <a href="https://github.com/BemTG/Stock-market-forecasting-neural-net-and-XGBoost-models-/blob/master/Stock%20market%20forecasting%20using%20sequential%20neural%20net%20model.ipynb">github </a> link.</p><br><br>
+
+      <h4><strong style="color: white"> Improvements</strong></h4><br>
+    <p style="color: white">There is certainly a lot of room for improvement, one of which is to train the model for longer (only trained model for 5-10 mins) to reduce the loss further.<br><br>
+
+      In addition, we can add more market features to dataset such as RSI, Bollinger bands and moving averages data when training the model. This may  decrease the loss and improve accuracy as it can help the model learn faster and better. <br><br> Moreover, we are not retraining the model overtime hence it is possible for model to diverge from optimal weights as new data points come in.<br><br>
+      When using regression models it is tough know how long to keep the trade but that’s when we can look into implementing reinforcement learning in order to come out of positions based on the optimal policy.<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </p>
+
+
+     </p>
+
+
+     </p>
+    <p></p>
+  </div>
+</div>
+     
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+<style>
+  body,h1 {font-family: 'Raleway', Arial, sans-serif}
+  h1 {letter-spacing: 6px}
+  .w3-row-padding img {margin-bottom: 12px}
+</style>
+
+<body>
+          
+</body>
+
+</html>
+
+
+  
+
+</div>
+<br>
+
+<div class="footer">
+  <p>© Bemnet Baraki 2019-2020
+</p>
+</div>
+
+
+    <p></p>
+  </div>
+
