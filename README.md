@@ -1,9 +1,7 @@
 # Stock-market-5-day-forecaster-neural-net
 
 
-    <h1 style="color: black">.jij</h1>
-    <h4><strong style="color: white"> Trading </strong></h4>
-    <p style="color: white">Many investment banks and hedge funds around the world trade stocks to create wealth for their investors. When it comes to trading the main goal is to preserve wealth and manage risk. 
+     <p style="color: white">Many investment banks and hedge funds around the world trade stocks to create wealth for their investors. When it comes to trading the main goal is to preserve wealth and manage risk. 
 One of the many ways hedge funds execute trades is through quantitative research and analysis.<br><br>
     <h4><strong style="color: white"> Staying market neutral</strong></h4>
     <p style="color: white">Quantitative traders use data to make predictions. This is usually carried out by making simple models to capture the markets state and forecast trends based on historical patterns. Quants find patterns in these historical datasets and make risk-adjusted statistical bets based on the patterns and behaviour of the market.<br>
