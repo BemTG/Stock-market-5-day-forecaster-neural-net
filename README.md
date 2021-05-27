@@ -44,12 +44,12 @@ A simple example of a market-neutral trade:<br><br>
     <p style="color: white">TThe model behind the web app is a neural net supervised machine learning model, which has been trained with 5 years of historical data of all the SP500 companies. The feature sets it was trained on are the daily  Open, High, Low, Adjusted Close values. By receiving the daily feature sets  (from yahoo finance) the model forecasts the upcoming 5th-day value to indicate the trend of the stock.<br><br>
       Back-propagation is the essence of neural net training. It is the practice of fine-tuning the weights of a neural net based on the error rate to capture the patterns and relationships of the data set. The user does not necessarily need to specify what patterns to look for. Once the model architecture has been constructed and the learning parameters have been adjusted, the neural network learns on its own.<br><br>
       Since our data is relatively small we used a simple model architecture of 2 hidden layers with 5 dense nodes. The activation function we have used is relu (rectified linear unit). By stacking several of these dense nodes we can create a higher order of polynomials which help capture more complex patterns of the dataset. <br><br>
-      The data was split 67% for training and 33% for testing. We trained our small dataset for 3 epochs for which we measured the mean squared error to be ~19%.<br><br>
+      The data was split 67% for training and 33% for testing. We trained our small dataset for 15 mins for which we measured the mean squared error to be ~19%.<br><br>
 
-      For more information about the project and the source code visit <a href="https://github.com/BemTG/Stock-market-forecasting-neural-net-and-XGBoost-models-/blob/master/Stock%20market%20forecasting%20using%20sequential%20neural%20net%20model.ipynb">github </a> link.</p><br><br>
+     
 
       <h4><strong style="color: white"> Improvements</strong></h4><br>
-    <p style="color: white">There is certainly a lot of room for improvement, one of which is to train the model for longer (only trained model for 5-10 mins) to reduce the loss further.<br><br>
+    <p style="color: white">There is certainly a lot of room for improvement, one of which is to train the model for longer (only trained model for 15 mins) to reduce the loss further.<br><br>
 
       In addition, we can add more market features to the dataset including RSI, Bollinger bands and moving averages data when training the model. This may decrease the loss and improve accuracy as it can help the model learn faster and effectively.<br><br> Moreover, we are not retraining the model overtime hence model can diverge from optimal weights as new data points come in.<br><br>
 
