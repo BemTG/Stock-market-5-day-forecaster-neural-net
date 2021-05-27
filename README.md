@@ -47,7 +47,7 @@ A simple example of a market-neutral trade:<br><br>
       The data was split 67% for training and 33% for testing. We trained our small dataset for 15 mins for which we measured the mean squared error to be ~19%.<br><br>
 
      
-
+ <h4><strong style="color: white"> Improvements</strong></h4><br>
   There is certainly a lot of room for improvement, one of which is to train the model for longer (only trained model for 15 mins) to reduce the loss further.<br><br>
 
  In addition, we can add more market features to the dataset including RSI, Bollinger bands and moving averages data when training the model. This may decrease the loss and improve accuracy as it can help the model learn faster and effectively.<br><br> Moreover, we are not retraining the model overtime hence model can diverge from optimal weights as new data points come in.<br><br>
