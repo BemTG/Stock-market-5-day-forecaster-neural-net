@@ -19,9 +19,8 @@ A simple model such as the Capital Asset Pricing Model (CAPM) can be used to des
 
 
 
-    <!-- <strong> Which economic reports are being used?</strong> -->
-    <p style="color: white">The total return of a stock can be explained using the two variables, market return and residual return. β is simply a measure of how correlated the given stock returns are to the market whereas α is the residual returns attributed to the stock irrespective of the market returns.<br>
-Quant traders build strategies and models to predict the alpha factor of the given stock to take market neutral trades. <br> 
+
+The total return of a stock can be explained using the two variables, market return and residual return. β is simply a measure of how correlated the given stock returns are to the market whereas α is the residual returns attributed to the stock irrespective of the market returns.Quant traders build strategies and models to predict the alpha factor of the given stock to take market neutral trades. <br> 
 Hedge funds will use a combination of different models (including machine learning models) to predict if the given stock is going to be above or below the market by a certain timeframe. The objective is to take trades on both sides of the market (long and short) to limit exposure to the fluctuation of the overall market direction.<br><br>
 
 A simple example of a market-neutral trade:<br><br>
